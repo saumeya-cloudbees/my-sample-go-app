@@ -12,4 +12,4 @@ jobs:
       - name: Say hello
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
-        run: 'sleep 40m'
+        run: 'sleep 10m'
