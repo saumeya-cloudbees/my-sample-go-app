@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     steps:
-      - name: Say hello
+      - name: Say hello message
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: 'sleep 5m'
